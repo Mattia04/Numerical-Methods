@@ -23,3 +23,11 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
+markdown_extensions:
+  - pymdown.highlight:
+    anchor_limenums: true
+    line_spans: __span
+    pygments_lang_class: true
+  - pymdown.inlinehilite
+  - pymdown.snippets
+  - pymdown.superfences
