@@ -5,6 +5,8 @@ theme:
   font:
     text: Merriweather Sans
     code: Fira code
+  icon:
+    logo: fontawesome/solid/m
   palette:
     # dark mode
     - scheme: slate
