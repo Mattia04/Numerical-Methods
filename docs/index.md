@@ -16,7 +16,7 @@ docs/
     index.md  # The documentation homepage.
     ...       # Other markdown pages, images and other files.
 
-    ```py title="add_numbers.py" linenums="69" hl_lines="70-72" 
+    ```py title="code-examples.md" linenums="1" hl_lines="2-4"
     class Foo(boo):
         __init__(self):
             number = 5
