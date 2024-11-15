@@ -24,10 +24,10 @@ theme:
       primary: blue
       accent: deep orange
 markdown_extensions:
-  - pymdown.highlight:
+  - pymdownx.highlight:
     anchor_limenums: true
     line_spans: __span
     pygments_lang_class: true
-  - pymdown.inlinehilite
-  - pymdown.snippets
-  - pymdown.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
