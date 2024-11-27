@@ -1,6 +1,7 @@
 site_name: Brumotti
 site_url: https://mattia04.github.io/Mattia04/
 theme:
+  language: en
   name: material
   font:
     text: Merriweather Sans
@@ -27,6 +28,10 @@ theme:
       primary: blue
       accent: deep orange
 markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
