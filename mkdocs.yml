@@ -1,5 +1,5 @@
-site_name: Brumotti
-site_url: https://mattia04.github.io/Mattia04/
+site_name: Python for physics
+site_url: https://github.com/Mattia04/WS
 theme:
   language: en
   name: material
@@ -17,16 +17,16 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Dark mode
-      primary: green
-      accent: deep purple
+      primary: indigo
+      accent: cyan
 
     # light mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: blue
-      accent: deep orange
+      primary: cyan
+      accent: deep purple
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
