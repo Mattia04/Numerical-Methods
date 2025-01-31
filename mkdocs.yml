@@ -1,10 +1,9 @@
-site_name: Python for physics
+site_name: Computational Physics
 site_url: https://github.com/Mattia04/WS
 theme:
   language: en
   name: material
   font:
-    text: Merriweather Sans
     code: Fira code
   icon:
     logo: material/telescope
@@ -52,5 +51,6 @@ extra:
   social:
     - icon: simple/github
       link: https://github.com/Mattia04
+  generator: false
 
 copyright: Copyright &copy; 2024 Mattia Ballico
