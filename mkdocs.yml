@@ -4,28 +4,35 @@ theme:
   language: en
   name: material
   font:
-    code: Fira code
-  icon:
-    logo: material/telescope
+    code: Fira Code
   highlightjs: true
   features:
     - navigation.footer
   palette:
-    # dark mode
-    - scheme: slate
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: indigo
-      accent: cyan
-
+        icon: material/brightness-auto
+        name: Switch to light mode
     # light mode
     - scheme: default
+      media: "(prefers-color-scheme: light)"
       toggle:
         icon: material/weather-night
         name: Light mode
-      primary: cyan
-      accent: deep purple
+    # dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+extra_css:
+  - stylesheets/custom.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -46,11 +53,13 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-
+  - pymdownx.arithmatex:
+      generic: true
 extra:
   social:
     - icon: simple/github
       link: https://github.com/Mattia04
   generator: false
 
-copyright: Copyright &copy; 2024 Mattia Ballico
+copyright: Copyright &copy; 2025 Mattia Ballico
+

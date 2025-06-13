@@ -28,7 +28,7 @@ for some topics they are interested in.
 
     There is also a page dedicated to a brief review of some basic concepts [see this page](000_Basics.md)
 
-Do you want to start learning? [see this page](001_Scientific_Programming.md).
+Do you want to start learning? [see this page](../old/001_Scientific_Programming.md).
 
 ## Navigation on this website
 
