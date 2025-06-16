@@ -19,6 +19,8 @@ There is a surprising way to generate an image of the [Sieripinski triangle](htt
 
 ??? success "Result"
     This is the result you will get
+    
+    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/PythonScripts/Ex_Random_Numbers/SierpinskyTriangle.png)</figure>
 
 ??? tip "Getting a better result"
     Since by starting on a random point would give us the first few points on noticiable "wrong" positions we can get a nicer result by skipping the first few points.
@@ -58,7 +60,9 @@ What happens when we increase the number of sides from 3 to 4 adding a fourth la
         To get a hole instead of a cross we would need to add 4 new generation points, each one located in the middle point of the square sides.
 
 ??? success "Result"
-    this is the correct result
+    Here is the correct result
+
+    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/PythonScripts/Ex_Random_Numbers/SierpinskyCube.png)</figure>
 
 ## 3. Koch Snowflake
 
@@ -68,7 +72,9 @@ Take an exagon, with labeled vertices, and the wighted average for generating th
 With this rules you will get a different structure called the [Koch Snowflake](https://en.wikipedia.org/wiki/Koch_snowflake).
 
 ??? success "Result"
-    insert photo here.
+    Here is the correct result
+    
+    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/PythonScripts/Ex_Random_Numbers/KochSnowflake.png)</figure>
 
 ## 4. Changing the number of dimensions.
 
@@ -82,24 +88,24 @@ What happens when we just generate points on one line? We get the [Cantor Set](h
 To generate the cantor set we just need 2 points and the weighted average at 2 to 1 weights like before.
 
 ??? success "Result"
-    Insert image here.
+    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/PythonScripts/Ex_Random_Numbers/CantorSet.png)</figure>
 
 We went down in dimensions can we go up? Yes, but the number of points we need to generate will increase a lot ($N\sim 10^6$).
 
 ### 4.2. Tetrahedron
 
 ??? success "Result"
-    Insert image here.
+    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/PythonScripts/Ex_Random_Numbers/SierpinskyTetrahedron3.png)</figure>
 
 ### 4.3. Cube
 
 ??? success "Result"
-    Insert image here.
+    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/PythonScripts/Ex_Random_Numbers/SierpinskyCube3.png)</figure>
 
 ### 4.4. Dodecahedron
 
 ??? success "Result"
-    Insert image here.
+    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/PythonScripts/Ex_Random_Numbers/KochSnowflake3D2.png)</figure>
 
 ## 5. A more Efficient Way of doing all of this
 
