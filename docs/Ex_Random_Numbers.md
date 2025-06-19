@@ -20,7 +20,7 @@ There is a surprising way to generate an image of the [Sieripinski triangle](htt
 ??? success "Result"
     This is the result you will get
 
-    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/blob/main/PythonScripts/Ex_Random_Numbers/SierpinskyTriangle.png?raw=true)</figure>
+    <figure>![Image title](Ex_Random_Numbers_Scripts&Photos/SierpinskiTriangle.png)</figure>
 
 ??? tip "Getting a better result"
     Since by starting on a random point would give us the first few points on noticiable "wrong" positions we can get a nicer result by skipping the first few points.
@@ -62,7 +62,7 @@ What happens when we increase the number of sides from 3 to 4 adding a fourth la
 ??? success "Result"
     Here is the correct result
 
-    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/blob/main/PythonScripts/Ex_Random_Numbers/SierpinskyCube.png?raw=true)</figure>
+    <figure>![Image title](Ex_Random_Numbers_Scripts&Photos/SierpinskiSquare.png)</figure>
 
 ## 3. Koch Snowflake
 
@@ -74,7 +74,7 @@ With this rules you will get a different structure called the [Koch Snowflake](h
 ??? success "Result"
     Here is the correct result
     
-    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/blob/main/PythonScripts/Ex_Random_Numbers/KochSnowflake.png?raw=true)</figure>
+    <figure>![Image title](Ex_Random_Numbers_Scripts&Photos/KochSnowflake.png)</figure>
 
 ## 4. Changing the number of dimensions.
 
@@ -88,24 +88,34 @@ What happens when we just generate points on one line? We get the [Cantor Set](h
 To generate the cantor set we just need 2 points and the weighted average at 2 to 1 weights like before.
 
 ??? success "Result"
-    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/blob/main/PythonScripts/Ex_Random_Numbers/CantorSet.png?raw=true)</figure>
+    <figure>![Image title](Ex_Random_Numbers_Scripts&Photos/CantorSet.png)</figure>
+
+    !!! Note
+        When generating this image we needed to add one dimension to make the graph to make it visualizable, so we can simply add a random y-axis position for each point.
 
 We went down in dimensions can we go up? Yes, but the number of points we need to generate will increase a lot ($N\sim 10^6$).
 
 ### 4.2. Tetrahedron
 
 ??? success "Result"
-    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/blob/main/PythonScripts/Ex_Random_Numbers/SierpinskyTetrahedron3.png?raw=true)</figure>
+    <figure>![Image title](Ex_Random_Numbers_Scripts&Photos/SierpinskiTetrahedron3.png)</figure>
+
+    !!! Note
+        You will not get a good result as the one shown in the image using just python. 
+        I wanted to add this and the following two excercies to show you that we can also make some "science art" if we want to.
+        The object in the images have been generated with a python script and then they have been rendered in blender.
 
 ### 4.3. Cube
 
 ??? success "Result"
-    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/blob/main/PythonScripts/Ex_Random_Numbers/SierpinskyCube3.png?raw=true)</figure>
+    <figure>![Image title](Ex_Random_Numbers_Scripts&Photos/SierpinskiCube3.png)</figure>
 
 ### 4.4. Dodecahedron
 
 ??? success "Result"
-    <figure>![Image title](https://mattia04.github.io/Numerical-Methods/blob/main/PythonScripts/Ex_Random_Numbers/KochSnowflake3D2.png?raw=true)</figure>
+    <figure>![Image title](Ex_Random_Numbers_Scripts&Photos/KochSnowflake3D2.png)</figure>
+
+The page is finished, but you can keep on trying making different shapes and fractals if you want!
 
 ## 5. A more Efficient Way of doing all of this
 
