@@ -1,0 +1,19 @@
+:root  > * {
+  --md-primary-fg-color:        #278783;
+  --md-primary-fg-color--light: #278783;
+  --md-primary-fg-color--dark:  #90030C;
+
+  --md-accent-fg-color: #FFA17A;
+  --md-accent-fg-color--light: #FFA17A;
+  --md-accent-fg-color--light: #FFA17A;
+
+  --md-footer-fg-color: #00C9C3;
+}
+
+/* Enable ligatures */
+.md-typeset code,
+.md-typeset kbd,
+.md-typeset pre {
+  font-feature-settings: "kern", "liga";
+  font-variant-ligatures: normal;
+}
